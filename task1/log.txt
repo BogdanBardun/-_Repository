@@ -1,0 +1,13 @@
+$ git log
+commit a558c9809e0e3e884982713f3a1facedc8375b73 (HEAD -> master)
+Author: Bogdan <bogdan.bardun@gmail.com>
+Date:   Mon Feb 18 23:35:53 2019 +0300
+
+    add status.txt
+
+commit 7667aa450b8309754fc650f6b13c964bf4da3f0d
+Author: Bogdan <bogdan.bardun@gmail.com>
+Date:   Mon Feb 18 23:09:40 2019 +0300
+
+    add
+
