@@ -1,0 +1,224 @@
+@font-face { 
+    font-family: 'Calligraffiti'; 
+    src:  
+         url('fonts/calligraffitti.ttf')  format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+body{
+    background-color: rgba(255, 255, 253, 0.904);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(59, 57, 57);
+}
+.label{
+    /*margin-top: 5px;*/
+    font-family: 'Calligraffiti';
+    margin-left: 5%;
+    position: absolute;
+    color: #EDE31F;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 220%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(59, 57, 57);
+}
+.label:hover{
+    color: rgba(255, 255, 253, 0.904);
+}
+.new_post{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 90%;
+    color: #EDE31F;
+    background-color: rgb(59, 57, 57);
+    z-index: 150;
+    border: none; 
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    cursor: pointer; 
+  
+}
+.log_out{
+    position: absolute;
+    margin-left: 94%;
+    margin-top: 5px;
+    color: #EDE31F;
+    background-color: rgb(59, 57, 57);
+    z-index: 150;
+    border: none; 
+    width: 40px;
+    font-size: 38px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.log_out:hover{
+    color: rgba(255, 255, 253, 0.904);
+}
+.new_post:hover{
+    color: rgba(255, 255, 253, 0.904);
+}
+.user_name{
+    font-family: 'Calligraffiti';
+    position:absolute;
+    margin-top: 7px;
+    margin-left: 75%;
+    color: #EDE31F;
+    z-index: 160;
+    border: none;
+    outline: none;
+    font-size: 200%;
+    text-decoration: none;
+    background-color: rgb(59, 57, 57);
+    
+}
+.posts{
+    position: relative;
+    top: 70px;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.post1{
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    border-color: #2B2929;
+    border-width: thin;
+    border-style: solid;
+    image-orientation: from-image;
+}
+.post_creator{
+    padding-top: 10px;
+    margin-left: 5%;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    color: #1E1E20
+}
+.post_time{
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.like{
+    background-color:  #EFEFEF;
+    cursor: pointer; 
+    border: none;
+}
+.delete{
+    background-color:  #EFEFEF;
+    cursor: pointer; 
+    border: none;
+}
+.edit{
+    background-color:  #EFEFEF;
+    cursor: pointer; 
+    border: none;
+}
+.like:focus{
+    color:  red;
+}
+.Likes{
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #1E1E20
+}
+.post_creator2{
+    font-size: large;
+    display: inline-block;
+    margin-left: 5%;
+    font-weight: bold;
+    color: #1E1E20
+}
+.description{
+    font-size: large;
+    display: inline-block;
+}
+.hashtag{
+    font-size: large;
+    display: inline-block;
+    color: rgb(112, 29, 221);
+    cursor: pointer;
+}
+.load_more{
+    position: relative;
+    left: 30%;
+    margin: 0 auto;
+    cursor: pointer;
+    top: 65px;
+    margin-bottom: 5%;
+    width: 40%;
+    border-radius: 3px;
+    font-size: 150%;
+    border: none;
+    background-color: rgb(59, 57, 57);
+    font-family: 'Calligraffiti';
+    color: #EDE31F;
+}
+.load_more:hover{
+    color: rgba(255, 255, 253, 0.904);
+}
+.footer{
+    margin-left: 83%;
+    position: fixed;
+    bottom: 0;
+    width: 15%;
+    height: 100px;  
+}
+.filters{
+    font-size: large;
+    background-color: #EFEFEF;
+    border-color: #2B2929;
+    border-width: thin;
+    border-radius: 3px;
+    border-style: solid;
+    color: #1E1E20;
+    margin-left: 83%;
+    width: 15%;
+    height: 300px;
+    top: 10%;
+   /* position: absolute;
+    top: 0;
+    right: 0;*/
+    border-radius: 3px;
+    position: fixed;
+}
+.filters_label{
+    background-color: rgb(59, 57, 57);
+    font-family: 'Calligraffiti';
+    color: #EDE31F;
+    margin-bottom: 4%;
+    font-size: 200%;
+    text-align: center;
+}
+.search{
+    background-color: rgb(59, 57, 57);
+    font-size: 105%;
+    font-family: 'Calligraffiti';
+    color: #EDE31F;
+    position: relative;
+    width: 40%;
+    left: 30%;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+.search:hover{
+    color: rgba(255, 255, 253, 0.904);
+}
