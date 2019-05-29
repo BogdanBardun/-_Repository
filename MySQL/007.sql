@@ -1,0 +1,1 @@
+SELECT distinct USER.NAME FROM niepcedb.USER;

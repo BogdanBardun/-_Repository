@@ -1,0 +1,1 @@
+SELECT * FROM niepcedb.photo_post order by photo_post.CREATION_DATE desc limit 5;

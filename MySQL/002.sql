@@ -1,0 +1,1 @@
+SELECT * FROM niepcedb.photo_post where USER_ID = 1488;

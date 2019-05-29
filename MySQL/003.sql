@@ -1,0 +1,1 @@
+SELECT * FROM niepcedb.photo_post where USER_ID = 1320 and CREATION_DATE = '2019-05-01';

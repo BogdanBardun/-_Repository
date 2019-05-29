@@ -1,0 +1,1 @@
+SELECT * FROM niepcedb.photo_post order by CREATION_DATE;
